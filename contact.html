@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Échanger sur votre situation | Arius</title>
+<meta name="description" content="Contactez Arius, cabinet de conseil patrimonial privé. Premier échange confidentiel à Strasbourg, Madrid, Nice ou en visioconférence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Arius</span>
+      <span class="brand-sub">Conseil patrimonial privé</span>
+    </a>
+    <nav class="site-nav" id="siteNav" aria-label="Navigation principale">
+      <a href="approche.html">Approche</a>
+      <a href="expertises.html">Expertises</a>
+      <a href="entrepreneurs-familles.html">Entrepreneurs &amp; familles</a>
+      <a href="france-espagne.html">France &amp; Espagne</a>
+      <a href="a-propos.html">À propos</a>
+      <a class="nav-cta" href="contact.html">Contact</a>
+    </nav>
+    <div class="lang-switch" aria-label="Langue">
+      <a class="active" href="contact.html">FR</a>
+      <a href="en/contact.html">EN</a>
+      <a href="es/contact.html">ES</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Échanger sur votre situation</h1>
+      <p class="lede">Un premier entretien confidentiel permet de comprendre votre situation, vos priorités et la manière dont Arius peut vous être utile. À Strasbourg, Madrid, Nice — ou en visioconférence.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid-2" style="align-items:start">
+
+        <div class="reveal">
+          <span class="eyebrow">Écrivez-nous</span>
+          <h2 style="margin-bottom:2.2rem">Organiser un premier échange</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" autocomplete="name" required>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </div>
+              <div class="form-field">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone" autocomplete="tel">
+              </div>
+              <div class="form-field">
+                <label for="objet">Objet</label>
+                <select id="objet" name="objet">
+                  <option value="" selected>Sélectionner…</option>
+                  <option>Organisation et structuration patrimoniale</option>
+                  <option>Protection du dirigeant et de la famille</option>
+                  <option>Investissement et allocation</option>
+                  <option>Transmission</option>
+                  <option>Situation internationale France–Espagne</option>
+                  <option>Autre sujet</option>
+                </select>
+              </div>
+              <div class="form-field form-field--full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Quelques lignes sur votre situation et vos attentes…"></textarea>
+              </div>
+            </div>
+            <p class="form-note">Vos informations sont traitées de manière strictement confidentielle et ne servent qu'à répondre à votre demande. Voir notre <a href="confidentialite.html" style="text-decoration:underline">politique de confidentialité</a>.</p>
+            <div style="margin-top:2rem">
+              <button type="submit" class="btn btn--dark">Envoyer votre message</button>
+            </div>
+            <div class="form-success" id="formSuccess">Merci pour votre message. Nous reviendrons vers vous rapidement, en toute confidentialité.</div>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <span class="eyebrow">Coordonnées</span>
+          <h2 style="margin-bottom:2.2rem">Nous joindre directement</h2>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">Email</h3>
+            <p><a href="mailto:contact@arius-conseil.fr" style="color:var(--bronze)">contact@arius-conseil.fr</a> <span class="placeholder">(à confirmer)</span></p>
+          </div>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">Téléphone</h3>
+            <p><span class="placeholder">[à compléter]</span></p>
+          </div>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">LinkedIn</h3>
+            <p><a href="#" style="color:var(--bronze)">Arius — Conseil patrimonial privé</a> <span class="placeholder">(lien à compléter)</span></p>
+          </div>
+          <div class="pillar">
+            <h3 style="font-size:1.2rem">Où nous rencontrer</h3>
+            <p>Basé à Strasbourg, avec une présence régulière à Madrid et à Nice. Les entretiens peuvent également se tenir en visioconférence, en français, en espagnol ou en anglais.</p>
+          </div>
+          <!-- Si un outil de prise de rendez-vous est disponible (Calendly ou équivalent), l'intégrer ici. -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">Arius</span>
+      <p>Conseil patrimonial privé, inspiré des méthodes du family office. Structurer, protéger, investir, transmettre.</p>
+      <p class="footer-cities">Strasbourg&nbsp;·&nbsp;Madrid&nbsp;·&nbsp;Nice</p>
+    </div>
+    <div class="footer-col">
+      <h4>Cabinet</h4>
+      <a href="approche.html">Approche</a>
+      <a href="expertises.html">Expertises</a>
+      <a href="entrepreneurs-familles.html">Entrepreneurs &amp; familles</a>
+      <a href="france-espagne.html">France &amp; Espagne</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Informations</h4>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="informations-reglementaires.html">Informations réglementaires</a>
+      <a href="reclamations.html">Réclamations</a>
+      <a href="confidentialite.html">Politique de confidentialité</a>
+      <a href="cookies.html">Cookies</a>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <p>Arius est la marque commerciale d'Arius Conseil, [forme juridique à compléter], enregistrée à l'ORIAS sous le n° [à compléter] (www.orias.fr). Les informations présentées sur ce site sont fournies à titre informatif et ne constituent ni une recommandation personnalisée, ni une sollicitation, ni une offre d'investissement. Les performances passées ne préjugent pas des performances futures ; tout investissement comporte des risques, notamment un risque de perte en capital.</p>
+  </div>
+  <div class="footer-legal">
+    <div class="container">
+      <p>© <span id="year">2026</span> Arius Conseil. Tous droits réservés.</p>
+      <p>Conseil patrimonial privé — Strasbourg · Madrid · Nice</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

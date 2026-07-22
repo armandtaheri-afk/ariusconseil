@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — Hablemos de su situación | Arius</title>
+<meta name="description" content="Contacte con Arius, despacho de asesoramiento patrimonial privado. Primera conversación confidencial en Estrasburgo, Madrid, Niza o por videoconferencia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Arius</span>
+      <span class="brand-sub">Asesoramiento Patrimonial Privado</span>
+    </a>
+    <nav class="site-nav" id="siteNav" aria-label="Navegación principal">
+      <a href="approche.html">Enfoque</a>
+      <a href="expertises.html">Especialidades</a>
+      <a href="entrepreneurs-familles.html">Empresarios y familias</a>
+      <a href="france-espagne.html">Francia y España</a>
+      <a href="a-propos.html">Quiénes somos</a>
+      <a class="nav-cta" href="contact.html">Contacto</a>
+    </nav>
+    <div class="lang-switch" aria-label="Idioma">
+      <a href="../contact.html">FR</a>
+      <a href="../en/contact.html">EN</a>
+      <a class="active" href="contact.html">ES</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir el menú" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contacto</span>
+      <h1>Hablemos de su situación</h1>
+      <p class="lede">Una primera reunión confidencial permite comprender su situación, sus prioridades y la manera en que Arius puede serle útil. En Estrasburgo, Madrid, Niza — o por videoconferencia.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid-2" style="align-items:start">
+
+        <div class="reveal">
+          <span class="eyebrow">Escríbanos</span>
+          <h2 style="margin-bottom:2.2rem">Concertar una primera conversación</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="nom">Nombre</label>
+                <input type="text" id="nom" name="nom" autocomplete="name" required>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </div>
+              <div class="form-field">
+                <label for="telephone">Teléfono</label>
+                <input type="tel" id="telephone" name="telephone" autocomplete="tel">
+              </div>
+              <div class="form-field">
+                <label for="objet">Asunto</label>
+                <select id="objet" name="objet">
+                  <option value="" selected>Seleccionar…</option>
+                  <option>Organización y estructuración patrimonial</option>
+                  <option>Protección del directivo y de la familia</option>
+                  <option>Inversión y asignación</option>
+                  <option>Transmisión</option>
+                  <option>Situación internacional Francia–España</option>
+                  <option>Otro asunto</option>
+                </select>
+              </div>
+              <div class="form-field form-field--full">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" placeholder="Unas líneas sobre su situación y sus expectativas…"></textarea>
+              </div>
+            </div>
+            <p class="form-note">Su información se trata con estricta confidencialidad y se utiliza únicamente para responder a su solicitud. Consulte nuestra <a href="confidentialite.html" style="text-decoration:underline">política de privacidad</a>.</p>
+            <div style="margin-top:2rem">
+              <button type="submit" class="btn btn--dark">Enviar su mensaje</button>
+            </div>
+            <div class="form-success" id="formSuccess">Gracias por su mensaje. Le responderemos en breve, con total confidencialidad.</div>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <span class="eyebrow">Datos de contacto</span>
+          <h2 style="margin-bottom:2.2rem">Contactar directamente</h2>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">Email</h3>
+            <p><a href="mailto:contact@arius-conseil.fr" style="color:var(--bronze)">contact@arius-conseil.fr</a> <span class="placeholder">(por confirmar)</span></p>
+          </div>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">Teléfono</h3>
+            <p><span class="placeholder">[por completar]</span></p>
+          </div>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">LinkedIn</h3>
+            <p><a href="#" style="color:var(--bronze)">Arius — Asesoramiento Patrimonial Privado</a> <span class="placeholder">(enlace por completar)</span></p>
+          </div>
+          <div class="pillar">
+            <h3 style="font-size:1.2rem">Dónde encontrarnos</h3>
+            <p>Con sede en Estrasburgo y presencia regular en Madrid y en Niza. Las reuniones también pueden celebrarse por videoconferencia, en francés, español o inglés.</p>
+          </div>
+          <!-- Si se dispone de una herramienta de citas (Calendly o similar), integrarla aquí. -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">Arius</span>
+      <p>Asesoramiento patrimonial privado, inspirado en los métodos del family office. Estructurar, proteger, invertir, transmitir.</p>
+      <p class="footer-cities">Estrasburgo&nbsp;·&nbsp;Madrid&nbsp;·&nbsp;Niza</p>
+    </div>
+    <div class="footer-col">
+      <h4>El despacho</h4>
+      <a href="approche.html">Enfoque</a>
+      <a href="expertises.html">Especialidades</a>
+      <a href="entrepreneurs-familles.html">Empresarios y familias</a>
+      <a href="france-espagne.html">Francia y España</a>
+      <a href="a-propos.html">Quiénes somos</a>
+      <a href="contact.html">Contacto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Información</h4>
+      <a href="mentions-legales.html">Aviso legal</a>
+      <a href="informations-reglementaires.html">Información regulatoria</a>
+      <a href="reclamations.html">Reclamaciones</a>
+      <a href="confidentialite.html">Política de privacidad</a>
+      <a href="cookies.html">Cookies</a>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <p>Arius es la marca comercial de Arius Conseil, [forma jurídica por completar], inscrita en el ORIAS con el n.º [por completar] (www.orias.fr). La información de este sitio web se facilita únicamente a título informativo y no constituye ni una recomendación personalizada, ni una solicitud, ni una oferta de inversión. Las rentabilidades pasadas no garantizan rentabilidades futuras; toda inversión conlleva riesgos, en particular el riesgo de pérdida de capital.</p>
+  </div>
+  <div class="footer-legal">
+    <div class="container">
+      <p>© <span id="year">2026</span> Arius Conseil. Todos los derechos reservados.</p>
+      <p>Asesoramiento patrimonial privado — Estrasburgo · Madrid · Niza</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../main.js"></script>
+</body>
+</html>

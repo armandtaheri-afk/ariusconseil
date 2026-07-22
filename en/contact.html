@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Discuss your situation | Arius</title>
+<meta name="description" content="Contact Arius, private wealth advisory firm. A confidential initial conversation in Strasbourg, Madrid, Nice or by video call.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Arius</span>
+      <span class="brand-sub">Private Wealth Advisory</span>
+    </a>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <a href="approche.html">Approach</a>
+      <a href="expertises.html">Expertise</a>
+      <a href="entrepreneurs-familles.html">Entrepreneurs &amp; Families</a>
+      <a href="france-espagne.html">France &amp; Spain</a>
+      <a href="a-propos.html">About</a>
+      <a class="nav-cta" href="contact.html">Contact</a>
+    </nav>
+    <div class="lang-switch" aria-label="Language">
+      <a href="../contact.html">FR</a>
+      <a class="active" href="contact.html">EN</a>
+      <a href="../es/contact.html">ES</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Discuss your situation</h1>
+      <p class="lede">A confidential first meeting allows us to understand your situation, your priorities and how Arius can be of use. In Strasbourg, Madrid, Nice — or by video call.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid-2" style="align-items:start">
+
+        <div class="reveal">
+          <span class="eyebrow">Write to us</span>
+          <h2 style="margin-bottom:2.2rem">Arrange an initial conversation</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="nom">Name</label>
+                <input type="text" id="nom" name="nom" autocomplete="name" required>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </div>
+              <div class="form-field">
+                <label for="telephone">Phone</label>
+                <input type="tel" id="telephone" name="telephone" autocomplete="tel">
+              </div>
+              <div class="form-field">
+                <label for="objet">Subject</label>
+                <select id="objet" name="objet">
+                  <option value="" selected>Select…</option>
+                  <option>Wealth organisation and structuring</option>
+                  <option>Protection of the business owner and family</option>
+                  <option>Investment and allocation</option>
+                  <option>Transmission</option>
+                  <option>International situation France–Spain</option>
+                  <option>Other subject</option>
+                </select>
+              </div>
+              <div class="form-field form-field--full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="A few lines about your situation and your expectations…"></textarea>
+              </div>
+            </div>
+            <p class="form-note">Your information is treated in strict confidence and is used solely to respond to your enquiry. See our <a href="confidentialite.html" style="text-decoration:underline">privacy policy</a>.</p>
+            <div style="margin-top:2rem">
+              <button type="submit" class="btn btn--dark">Send your message</button>
+            </div>
+            <div class="form-success" id="formSuccess">Thank you for your message. We will come back to you shortly, in complete confidence.</div>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <span class="eyebrow">Details</span>
+          <h2 style="margin-bottom:2.2rem">Reach us directly</h2>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">Email</h3>
+            <p><a href="mailto:contact@arius-conseil.fr" style="color:var(--bronze)">contact@arius-conseil.fr</a> <span class="placeholder">(to be confirmed)</span></p>
+          </div>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">Phone</h3>
+            <p><span class="placeholder">[to be completed]</span></p>
+          </div>
+          <div class="pillar" style="margin-bottom:2rem">
+            <h3 style="font-size:1.2rem">LinkedIn</h3>
+            <p><a href="#" style="color:var(--bronze)">Arius — Private Wealth Advisory</a> <span class="placeholder">(link to be completed)</span></p>
+          </div>
+          <div class="pillar">
+            <h3 style="font-size:1.2rem">Where to meet us</h3>
+            <p>Based in Strasbourg, with a regular presence in Madrid and Nice. Meetings can also be held by video call, in French, Spanish or English.</p>
+          </div>
+          <!-- If an appointment-booking tool is available (Calendly or similar), embed it here. -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">Arius</span>
+      <p>Private wealth advisory, inspired by family office methods. Structure, protect, invest, transmit.</p>
+      <p class="footer-cities">Strasbourg&nbsp;·&nbsp;Madrid&nbsp;·&nbsp;Nice</p>
+    </div>
+    <div class="footer-col">
+      <h4>The Firm</h4>
+      <a href="approche.html">Approach</a>
+      <a href="expertises.html">Expertise</a>
+      <a href="entrepreneurs-familles.html">Entrepreneurs &amp; Families</a>
+      <a href="france-espagne.html">France &amp; Spain</a>
+      <a href="a-propos.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Information</h4>
+      <a href="mentions-legales.html">Legal notice</a>
+      <a href="informations-reglementaires.html">Regulatory information</a>
+      <a href="reclamations.html">Complaints</a>
+      <a href="confidentialite.html">Privacy policy</a>
+      <a href="cookies.html">Cookies</a>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <p>Arius is the trading name of Arius Conseil, [legal form to be completed], registered with ORIAS under no. [to be completed] (www.orias.fr). The information on this website is provided for information purposes only and constitutes neither personalised advice, nor a solicitation, nor an investment offer. Past performance is not a reliable indicator of future performance; all investments involve risks, including the risk of capital loss.</p>
+  </div>
+  <div class="footer-legal">
+    <div class="container">
+      <p>© <span id="year">2026</span> Arius Conseil. All rights reserved.</p>
+      <p>Private wealth advisory — Strasbourg · Madrid · Nice</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../main.js"></script>
+</body>
+</html>
