@@ -148,4 +148,46 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://ariusconseil.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ariusconseil.com/"/>
   </url>
+  <url>
+    <loc>https://ariusconseil.com/publications.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ariusconseil.com/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariusconseil.com/en/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ariusconseil.com/es/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariusconseil.com/publications.html"/>
+  </url>
+  <url>
+    <loc>https://ariusconseil.com/en/publications.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ariusconseil.com/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariusconseil.com/en/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ariusconseil.com/es/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariusconseil.com/publications.html"/>
+  </url>
+  <url>
+    <loc>https://ariusconseil.com/es/publications.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ariusconseil.com/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariusconseil.com/en/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ariusconseil.com/es/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariusconseil.com/publications.html"/>
+  </url>
+  <url>
+    <loc>https://ariusconseil.com/publication-patrimoine-franco-espagnol.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ariusconseil.com/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariusconseil.com/en/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ariusconseil.com/es/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariusconseil.com/publication-patrimoine-franco-espagnol.html"/>
+  </url>
+  <url>
+    <loc>https://ariusconseil.com/en/publication-patrimoine-franco-espagnol.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ariusconseil.com/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariusconseil.com/en/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ariusconseil.com/es/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariusconseil.com/publication-patrimoine-franco-espagnol.html"/>
+  </url>
+  <url>
+    <loc>https://ariusconseil.com/es/publication-patrimoine-franco-espagnol.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ariusconseil.com/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariusconseil.com/en/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ariusconseil.com/es/publication-patrimoine-franco-espagnol.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariusconseil.com/publication-patrimoine-franco-espagnol.html"/>
+  </url>
 </urlset>

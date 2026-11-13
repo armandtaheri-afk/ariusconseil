@@ -552,6 +552,73 @@ section { padding: clamp(4.5rem, 9vw, 7.5rem) 0; }
 }
 
 /* --------------------------------------------------------------------------
+   Publications
+   -------------------------------------------------------------------------- */
+
+.post-list { border-top: 1px solid var(--line); }
+
+.post-card {
+  display: block;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid var(--line);
+  transition: padding-left 0.35s ease;
+}
+
+.post-card:hover { padding-left: 0.7rem; }
+
+.post-meta {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-bottom: 0.9rem;
+}
+
+.post-card h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.95rem);
+  margin-bottom: 0.8rem;
+  color: var(--night);
+}
+
+.post-card p { color: var(--grey); font-size: 1rem; max-width: 70ch; }
+
+.post-card .more {
+  display: inline-block;
+  margin-top: 1.1rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  border-bottom: 1px solid transparent;
+}
+
+.post-card:hover .more { border-bottom-color: var(--bronze); }
+
+.article-back {
+  display: inline-block;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-bottom: 2.2rem;
+}
+
+.article-back:hover { color: var(--night); }
+
+.article-lede {
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--grey);
+  margin-bottom: 2.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+/* --------------------------------------------------------------------------
    Pages réglementaires
    -------------------------------------------------------------------------- */
 
